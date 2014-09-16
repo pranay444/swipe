@@ -1,6 +1,7 @@
 swipe
 =====
 About
+
 JavaScript solution that will detect when a visitor swipes the page and then perform an action based on the swipe direction and distance.
 
 
