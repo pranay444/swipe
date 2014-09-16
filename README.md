@@ -1,7 +1,12 @@
 swipe
 =====
+About
+JavaScript solution that will detect when a visitor swipes the page and then perform an action based on the swipe direction and distance.
+
+
 Usage
-First I will show how to use the plugin. Multiple swipe events can be bound to different nodes but for the sake of example, we will use the "body".
+
+Multiple swipe events can be bound to different nodes but for the sake of example, we will use the "body".
 
 $("body").swipe(function( direction, offset ) {
   console.log( "Moving", direction.x, "and", direction.y );
